@@ -1,11 +1,11 @@
 # Tiny Tapeout project information
 project:
-  title:        "parakeet"
-  author:       "fivetonsofflax"      
-  discord:      "na"
-  description:  "A fun Verilog test project. Using custom AI with HDL."      
-  language:     "Verilog"
-  clock_hz:     25175000
+  title:        "parakeet"      # Project title
+  author:       "fivetonsofflax"      # Your name
+  discord:      "na"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "A fun Verilog test project. Using custom AI with HDL."      # One line description of what your project does
+  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  clock_hz:     25175000       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -24,24 +24,24 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "A"
-  ui[1]: "B"
-  ui[2]: "C"
-  ui[3]: "D"
-  ui[4]: "PMOD LATCH"
-  ui[5]: "PMOD CLOCK"
-  ui[6]: "PMOD DATA"
-  ui[7]: "Audio Toggle"
+  ui[0]: ""
+  ui[1]: ""
+  ui[2]: ""
+  ui[3]: ""
+  ui[4]: ""
+  ui[5]: ""
+  ui[6]: ""
+  ui[7]: ""
 
   # Outputs
-  uo[0]: "R1"
-  uo[1]: "G1"
-  uo[2]: "B1"
-  uo[3]: "VSync"
-  uo[4]: "R0"
-  uo[5]: "G0"
-  uo[6]: "B0"
-  uo[7]: "HSync"
+  uo[0]: "R[1]"
+  uo[1]: "G[1]"
+  uo[2]: "B[1]"
+  uo[3]: "vsync"
+  uo[4]: "R[0]"
+  uo[5]: "G[0]"
+  uo[6]: "B[0]"
+  uo[7]: "hsync"
 
   # Bidirectional pins
   uio[0]: ""
@@ -51,7 +51,7 @@ pinout:
   uio[4]: ""
   uio[5]: ""
   uio[6]: ""
-  uio[7]: "Audio out"
+  uio[7]: "PWM audio"
 
 # Do not change!
 yaml_version: 6
