@@ -1,7 +1,7 @@
 // Copyright (c) 2026 Fivetonsofflax
 // SPDX-License-Identifier: GPL3
 // Project: Parakeet
-// Description: Custom mode 7 tyle demo for ttsky26a. Built custom tool to aid in assisted development. Gate count should be low enough. Should work with VGA Playground.
+// Description: This is based on demo tutorial 34 of my new node based verilog tool. Custom mode 7 tyle demo for ttsky26a. Built custom tool to aid in assisted development. Gate count should be low enough. Should work with VGA Playground.
 
 `default_nettype none
 
