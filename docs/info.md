@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Project renders output to a screen.
 
 ## How to test
 
-Explain how to use your project
+To use this project, please configure it similar to VGA Playground.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+VGA Display like VGA Playground
