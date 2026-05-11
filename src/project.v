@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 fivetonsofflax
+ * Copyright (c) 2026 fivetonsofflax
  * SPDX-License-Identifier: Apache-2.0
  */
 
