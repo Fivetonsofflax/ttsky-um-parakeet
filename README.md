@@ -4,6 +4,7 @@
 
 - [Read the documentation for project](docs/info.md)
 
+- [VGA Playground test](https://vga-playground.com/?repo=https%3A%2F%2Fgithub.com%2Ffivetonsofflax%2Fttsky26a-um-parakeet)
 ## What is Tiny Tapeout?
 
 Tiny Tapeout is an educational project that aims to make it easier and cheaper than ever to get your digital and analog designs manufactured on a real chip.
