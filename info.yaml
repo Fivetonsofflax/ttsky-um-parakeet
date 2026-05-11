@@ -3,9 +3,9 @@ project:
   title:        "parakeet"
   author:       "fivetonsofflax"      
   discord:      "na"
-  description:  "A fun Verilog and custom AI + HDL test."      
+  description:  "A fun Verilog test project. Using custom AI with HDL."      
   language:     "Verilog"
-  clock_hz:    25175000
+  clock_hz:     25175000
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -24,10 +24,10 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
+  ui[0]: "A"
+  ui[1]: "B"
+  ui[2]: "C"
+  ui[3]: "D"
   ui[4]: "PMOD LATCH"
   ui[5]: "PMOD CLOCK"
   ui[6]: "PMOD DATA"
